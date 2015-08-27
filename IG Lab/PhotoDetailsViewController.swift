@@ -10,8 +10,18 @@ import UIKit
 
 class PhotoDetailsViewController: UIViewController {
 
+    var photo = NSDictionary()
+    
+    @IBOutlet weak var usernameLabel: UILabel!
+    @IBOutlet weak var photoImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        usernameLabel.text = photo.valueForKeyPath("user.username") as! String
+        
+        let url = photo.valueForKeyPath("images.standard_resolution.url") as! NSString
+        photoImageView.setImageWithURL(NSURL(string: url as! String)!)
 
         // Do any additional setup after loading the view.
     }
@@ -26,6 +36,7 @@ class PhotoDetailsViewController: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
