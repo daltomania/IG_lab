@@ -1,0 +1,6 @@
+framework module Pods_IG_Lab {
+  umbrella header "Pods-IG Lab-umbrella.h"
+
+  export *
+  module * { export * }
+}

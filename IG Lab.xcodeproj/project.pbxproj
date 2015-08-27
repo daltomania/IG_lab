@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B95E162AFBBA2F7CE4D538A /* Pods_IG_Lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C519B659006DEBB3A1327CE8 /* Pods_IG_Lab.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		9D0F96FB1B8E913F0016E740 /* PhotoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0F96FA1B8E913F0016E740 /* PhotoDetailsViewController.swift */; };
+		9D6DFBD91B8E766500637CD0 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6DFBD81B8E766500637CD0 /* PhotosViewController.swift */; };
+		9D6DFBDC1B8E7AAE00637CD0 /* PhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6DFBDB1B8E7AAE00637CD0 /* PhotoViewCell.swift */; };
 		9DF0E7AA1B8E73AA00DD7017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0E7A91B8E73AA00DD7017 /* AppDelegate.swift */; };
-		9DF0E7AC1B8E73AA00DD7017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF0E7AB1B8E73AA00DD7017 /* ViewController.swift */; };
 		9DF0E7AF1B8E73AA00DD7017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DF0E7AD1B8E73AA00DD7017 /* Main.storyboard */; };
 		9DF0E7B11B8E73AA00DD7017 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DF0E7B01B8E73AA00DD7017 /* Images.xcassets */; };
 		9DF0E7B41B8E73AA00DD7017 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9DF0E7B21B8E73AA00DD7017 /* LaunchScreen.xib */; };
@@ -26,16 +29,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15B985AC974C3AC79DFA7E84 /* Pods-IG Lab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IG Lab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IG Lab/Pods-IG Lab.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0F96FA1B8E913F0016E740 /* PhotoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailsViewController.swift; sourceTree = "<group>"; };
+		9D6DFBD81B8E766500637CD0 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
+		9D6DFBDB1B8E7AAE00637CD0 /* PhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewCell.swift; sourceTree = "<group>"; };
 		9DF0E7A41B8E73AA00DD7017 /* IG Lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IG Lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF0E7A81B8E73AA00DD7017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DF0E7A91B8E73AA00DD7017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DF0E7AB1B8E73AA00DD7017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DF0E7AE1B8E73AA00DD7017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DF0E7B01B8E73AA00DD7017 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9DF0E7B31B8E73AA00DD7017 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9DF0E7B91B8E73AA00DD7017 /* IG LabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IG LabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DF0E7BE1B8E73AA00DD7017 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DF0E7BF1B8E73AA00DD7017 /* IG_LabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IG_LabTests.swift; sourceTree = "<group>"; };
+		C519B659006DEBB3A1327CE8 /* Pods_IG_Lab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IG_Lab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F33ACDF01BF2047A4699B20A /* Pods-IG Lab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IG Lab.release.xcconfig"; path = "Pods/Target Support Files/Pods-IG Lab/Pods-IG Lab.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B95E162AFBBA2F7CE4D538A /* Pods_IG_Lab.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +65,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081FAD41AC05E03175A4B8B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				15B985AC974C3AC79DFA7E84 /* Pods-IG Lab.debug.xcconfig */,
+				F33ACDF01BF2047A4699B20A /* Pods-IG Lab.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2B1720E4B7EDB6B0C84938BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C519B659006DEBB3A1327CE8 /* Pods_IG_Lab.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D6DFBDA1B8E7A9200637CD0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D6DFBDB1B8E7AAE00637CD0 /* PhotoViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		9DF0E79B1B8E73AA00DD7017 = {
 			isa = PBXGroup;
 			children = (
 				9DF0E7A61B8E73AA00DD7017 /* IG Lab */,
 				9DF0E7BC1B8E73AA00DD7017 /* IG LabTests */,
 				9DF0E7A51B8E73AA00DD7017 /* Products */,
+				081FAD41AC05E03175A4B8B6 /* Pods */,
+				2B1720E4B7EDB6B0C84938BC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,8 +113,9 @@
 		9DF0E7A61B8E73AA00DD7017 /* IG Lab */ = {
 			isa = PBXGroup;
 			children = (
+				9D6DFBDA1B8E7A9200637CD0 /* Views */,
+				9DF0E7C91B8E73B500DD7017 /* View Controllers */,
 				9DF0E7A91B8E73AA00DD7017 /* AppDelegate.swift */,
-				9DF0E7AB1B8E73AA00DD7017 /* ViewController.swift */,
 				9DF0E7AD1B8E73AA00DD7017 /* Main.storyboard */,
 				9DF0E7B01B8E73AA00DD7017 /* Images.xcassets */,
 				9DF0E7B21B8E73AA00DD7017 /* LaunchScreen.xib */,
@@ -112,6 +149,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		9DF0E7C91B8E73B500DD7017 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D6DFBD81B8E766500637CD0 /* PhotosViewController.swift */,
+				9D0F96FA1B8E913F0016E740 /* PhotoDetailsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DF0E7C31B8E73AA00DD7017 /* Build configuration list for PBXNativeTarget "IG Lab" */;
 			buildPhases = (
+				F8F27818974B6283B54023B3 /* Check Pods Manifest.lock */,
 				9DF0E7A01B8E73AA00DD7017 /* Sources */,
 				9DF0E7A11B8E73AA00DD7017 /* Frameworks */,
 				9DF0E7A21B8E73AA00DD7017 /* Resources */,
+				DDB8BA8D3A1537A6AEC52A5A /* Copy Pods Resources */,
+				CBDA1F1C5CFC5366D93F28C9 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,13 +256,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CBDA1F1C5CFC5366D93F28C9 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IG Lab/Pods-IG Lab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDB8BA8D3A1537A6AEC52A5A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IG Lab/Pods-IG Lab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F27818974B6283B54023B3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DF0E7A01B8E73AA00DD7017 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DF0E7AC1B8E73AA00DD7017 /* ViewController.swift in Sources */,
+				9D0F96FB1B8E913F0016E740 /* PhotoDetailsViewController.swift in Sources */,
 				9DF0E7AA1B8E73AA00DD7017 /* AppDelegate.swift in Sources */,
+				9D6DFBD91B8E766500637CD0 /* PhotosViewController.swift in Sources */,
+				9D6DFBDC1B8E7AAE00637CD0 /* PhotoViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +437,7 @@
 		};
 		9DF0E7C41B8E73AA00DD7017 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B985AC974C3AC79DFA7E84 /* Pods-IG Lab.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IG Lab/Info.plist";
@@ -348,6 +448,7 @@
 		};
 		9DF0E7C51B8E73AA00DD7017 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F33ACDF01BF2047A4699B20A /* Pods-IG Lab.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "IG Lab/Info.plist";
@@ -409,6 +510,7 @@
 				9DF0E7C51B8E73AA00DD7017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DF0E7C61B8E73AA00DD7017 /* Build configuration list for PBXNativeTarget "IG LabTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +519,7 @@
 				9DF0E7C81B8E73AA00DD7017 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
